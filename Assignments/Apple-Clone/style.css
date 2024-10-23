@@ -13,7 +13,7 @@ section {
 }
 /* navbar  */
 .navbar {
-  background-color: rgba(22, 22, 23, 0.8);
+  background-color: rgba(255, 255, 255, .8);
   padding: 10px 20px;
   position: fixed;
   width: 100%;
@@ -46,7 +46,7 @@ section {
 }
 
 .navbar-links li a {
-  color: white;
+  color:  rgba(0, 0, 0, .8);
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s ease;
@@ -72,6 +72,15 @@ section {
 }
 
 /*  hero section  */
+.hero0{
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url(./assets/ipad.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 100vh;
+}
 .hero {
   text-align: center;
   padding: 50px 20px;
@@ -155,7 +164,7 @@ h1 {
 .coming-soon {
   font-size: 0.9em;
   margin-top: 10px;
-  color: #cccccc;
+  color: #7f7f7f;
 }
 
 /* section 4 */
